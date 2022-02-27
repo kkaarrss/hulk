@@ -9,4 +9,4 @@ RUN apk add --no-cache git \
 
 ENTRYPOINT ["hulk"]
 
-CMD ["--site $site"]
+CMD ["--site %SITE%"]
